@@ -1,0 +1,26 @@
+digraph G {
+    layout=circo
+    size="6,6"
+	f1040 -> sched1 [label="text"]
+	f1040 -> sched2 [label="xyz"]
+	f1040 -> sched3 [label="xyz"]
+	f1040 -> schedA [label="xyz"]
+	f1040 -> schedB [label="xyz"]
+	f1040 -> schedD [label="xyz"]
+	f1040 -> f8812 [label="xyz"]
+	f1040 -> f1099 [label="xyz"]
+	f1040 -> f8814 [label="xyz"]
+	f1040 -> f4972 [label="xyz"]
+	f1040 -> f8995A [label="xyz"]
+	f1040 -> f8888 [label="xyz"]
+	f1040 -> f8863 [label="xyz"]
+	f1040 -> fW2 [label="xyz"]
+	f1040 -> schEIC [label="xyz"]
+	f1040 -> otherforms [label="xyz"]
+    sched1 -> f4797
+    sched1 -> f8889
+    sched1 -> f2106
+    sched1 -> f3903
+    schedB -> f3520
+    schedB -> f8815
+}
